@@ -5,7 +5,7 @@ import { Card, CardContent, CardHeader } from "@/components/ui/card";
 import { Button } from "@/components/ui/button";
 import { Badge } from "@/components/ui/badge";
 import { Avatar, AvatarFallback } from "@/components/ui/avatar";
-import { MapPin, Users, Briefcase, Star, Heart, Follow } from "lucide-react";
+import { MapPin, Users, Briefcase, Star, Heart, UserPlus } from "lucide-react";
 
 // Mock company data
 const companies = [
@@ -202,7 +202,7 @@ export function CompaniesGrid() {
                     size="sm" 
                     className="h-8 w-8 p-0"
                   >
-                    <Follow className="h-4 w-4" />
+                    <UserPlus className="h-4 w-4" />
                   </Button>
                 </div>
               </div>
